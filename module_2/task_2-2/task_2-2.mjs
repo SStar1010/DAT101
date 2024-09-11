@@ -13,7 +13,7 @@ printOut("Replace this with you answer!");
 printOut(newLine);
 
 printOut("--- Part 3 ----------------------------------------------------------------------------------------------");
-/* Put your code below here!*/
+/* Put your code below here! d*/
 printOut("Replace this with you answer!");
 printOut(newLine);
 
