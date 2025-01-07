@@ -3,8 +3,13 @@ import { initPrintOut, printOut, newLine } from "../../common/script/utils.mjs";
 initPrintOut(document.getElementById("txtOut"));
 
 printOut("--- Part 1 ----------------------------------------------------------------------------------------------");
-/* Put your code below here!*/
-printOut("Replace this with you answer!");
+const AccountType = {
+    Normal: "Brukskonto",
+    Saving: "Sparekonto",
+    Credit: "Kreditkonto",
+    Pension: "Pensionskonto"
+}
+printOut(Object.values(AccountType).join(", "));
 printOut(newLine);
 
 printOut("--- Part 2 ----------------------------------------------------------------------------------------------");
