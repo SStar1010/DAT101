@@ -106,6 +106,8 @@ function drawBait() {
   }
 }
 
+
+let test = 0;
 function animateGame() {
   switch (GameProps.status) {
     case EGameStatus.playing:
